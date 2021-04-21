@@ -5,14 +5,14 @@
 /*  - druga definicja to nazwa cwiczenia i numeracja wersji kodu              */
 /******************************************************************************/
 
-#define NAME "Jacek Tarasiuk"
-#define VERSION "SGA 0.8"
+#define NAME "Karol Kocierz"
+#define VERSION "SGA 0.1"
 
 #include <iostream>
 #include <fstream>
 #include <stdlib.h>
 #include <cmath>
-#include "SGA_Tarasiuk.h" // Tu trzeba zainkludowac wlasny plik
+#include "SGA_Kocierz.h" // Tu trzeba zainkludowac wlasny plik
 #include "random.h"
 using namespace std;
 

@@ -3,8 +3,8 @@
 /* Prosze tylko zastapic moje nazwisko swoim                                  */
 /******************************************************************************/
 
-#ifndef SGA_TARASIUK_H
-#define SGA_TARASIUK_H
+#ifndef SGA_KOCIERZ_H
+#define SGA_KOCIERZ_H
 #include "SGA_Facade.h"
 
 // Maksymalne wartosci potrzebne do zadeklarowania wielkosci tablic

@@ -5,7 +5,7 @@
 #include <iostream>
 #include <fstream>
 #include "SGA_Facade.h"
-#include "SGA_Tarasiuk.h" // Tu nalezy dolaczyc plik z wlasnym kodem
+#include "SGA_Kocierz.h" // Tu nalezy dolaczyc plik z wlasnym kodem
                           // zmieniajac nazwe pliku na zawierajaca nazwisko
 #include "random.h"
 
