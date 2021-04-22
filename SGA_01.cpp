@@ -72,8 +72,8 @@ int main(int argc, char* argv[])
 	delete SGA;
 	log_file.close();
 	conv_file.close();
-	cout << "\nPress ENTER to finish" << endl;
-	getchar();
+	// cout << "\nPress ENTER to finish" << endl;
+	// getchar();
 	return 0;
 }
 

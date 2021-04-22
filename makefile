@@ -13,3 +13,7 @@ $(EXEC): $(OBJ)
 
 clean:
 	rm -rf $(OBJ)
+
+run:
+	./$(EXEC)
+	python3 plot_graph.py
