@@ -6,6 +6,7 @@
 #ifndef SGA_KOCIERZ_H
 #define SGA_KOCIERZ_H
 #include "SGA_Facade.h"
+#include "stdlib.h"
 
 // Maksymalne wartosci potrzebne do zadeklarowania wielkosci tablic
 // W przypadku chromosomu jest to  bool chromosome[max_chrom_size];
@@ -18,6 +19,10 @@
 
 const int max_pop_size=100;
 const int max_chrom_size=30;
+const int A_max=465;
+const long long B_max=2.6525286e+32;
+const int A_0=434;
+const int B_0=4224;
 
 /******************************************************************************/
 /*                                                                   GENOTYPE */
@@ -36,7 +41,8 @@ class genotype
 class phenotype
 {
  public:
- float x;							// niezakodowana postac rozwiazania
+ int A;
+ long long B;							// niezakodowana postac rozwiazania
  void  decode(genotype g);
  float fitness_function();
 };
@@ -108,7 +114,8 @@ public:
 		int  Next_Generation();
 
 		float Individual_Fitness(int i);
-		float Individual_Value(int i, int j);
+		int Individual_A(int i, int j);
+		int Individual_B(int i, int j);
 
 		void  Phenotype_Number(int k) {phenotype_number=k;};
 		int   Phenotype_Number() {return phenotype_number;};
